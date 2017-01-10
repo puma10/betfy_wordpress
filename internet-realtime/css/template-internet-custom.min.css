@@ -1,0 +1,794 @@
+.clock-container,
+.content div.front,
+.footer,
+.header,
+.header h1 {
+    text-align: center
+}
+* {
+    margin: 0;
+    padding: 0
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block
+}
+.flip-clock-wrapper,
+.share,
+.sub-clock {
+    display: inline-block
+}
+body {
+    font: 12px/18px Lato, 'Open Sans', Arial, sans-serif;
+    width: 100%;
+    background: #f7f7f7
+}
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto
+}
+a {
+    font-family: Lato
+}
+a:active,
+a:focus,
+a:hover {
+    color: #f15d4f;
+    text-transform: none;
+    text-decoration: none
+}
+span.st_twitter_large .stLarge {
+    background-image: url(../images/social/twitter-3.png) !important
+}
+span.st_facebook_large .stLarge {
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 50%;
+    top: -5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-image: url(../images/social/fb-4.png) !important
+}
+span.st_linkedin_large .stLarge {
+    background-image: url(../images/social/linkedin-3.png) !important
+}
+span .stButton .stLarge {
+    width: 45px;
+    height: 45px
+}
+span .stButton .stLarge:hover {
+    background-position: 0
+}
+.row {
+    background: #F5F4EF;
+    margin: 0
+}
+.clock-container .row,
+.footer,
+.header {
+    background: #f5f4ef
+}
+.header {
+    height: auto;
+    max-width: 100%;
+    color: #c5c1b8
+}
+.header h1 {
+    max-width: 70%;
+    padding: 20px 0;
+    margin: 0 auto;
+    font-size: 5.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-top: 1px solid #c5c1b8
+}
+.share {
+    float: right;
+    margin-right: 50px;
+    margin-top: -10px
+}
+.share span {
+    font-weight: 400;
+    vertical-align: -60%;
+    font-size: 14px
+}
+/*Added for Safari*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1) {
+     ::i-block-chrome, .share span { vertical-align: 120%; }
+}
+
+.share .share-buttons {
+    float: none;
+    margin-top: 0;
+    padding-right: 20px
+}
+.content {
+    max-width: 100%;
+    padding: 0
+}
+.content div.block {
+    min-height: 260px;
+    padding: 0
+}
+.content div.card,
+.content div.card2,
+.content div.card3,
+.content div.card4,
+.content div.card5,
+.content div.card6 {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    perspective: 1600px;
+    background: #f5f4ef
+}
+.content div.face {
+    position: absolute;
+    height: 260px;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .5)
+}
+.panel .back,
+.panel .front {
+    float: none;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-transform-style: preserve-3d;
+    -moz-backface-visibility: hidden;
+    transition: all .4s ease-in-out;
+    top: 0;
+    left: 0
+}
+.content div.front {
+    color: #fff
+}
+.content div.front i,
+.content div.front svg {
+    margin: 50px auto 5px
+}
+.content div.front h3 {
+    font-size: 24px;
+    font-weight: 700
+}
+.content div.front p.block-data {
+    font-size: 30px;
+    font-weight: 300
+}
+.content div.front p.block-data.usd:before {
+    content: '$'
+}
+.content div.front p.block-description {
+    font-size: 22px;
+    font-weight: 300
+}
+.content div.back {
+    padding: 0 20px;
+    color: #fff
+}
+.content div.back .block-icon i,
+.content div.back svg {
+    display: inline-block;
+    margin-top: 20px
+}
+.content div.back h3 {
+    font-size: 24px;
+    font-weight: 600
+}
+.content div.back .block-description {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 20px;
+    margin: 0 0 7px
+}
+.content div.back .block-description .block-data {
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 5px
+}
+.back.face div.share-buttons span.st_facebook_large span.stButton span.stLarge {
+    vertical-align: baseline;
+    position: relative
+}
+.panel .front {
+    z-index: 900;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .9);
+    -webkit-transform: rotateX(0) rotateY(0);
+    -moz-transform: rotateX(0) rotateY(0)
+}
+.flip .back,
+.flip .front {
+    box-shadow: 0 15px 50px rgba(0, 0, 0, .2)
+}
+.flip .front {
+    z-index: 900;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg)
+}
+.panel .back {
+    z-index: 800;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg)
+}
+.flip .back {
+    z-index: 1000;
+    -webkit-transform: rotateX(0) rotateY(0);
+    -moz-transform: rotateX(0) rotateY(0);
+    -moz-box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 15px 50px rgba(0, 0, 0, .2)
+}
+.panel {
+    border: 0;
+    box-shadow: none
+}
+.footer {
+    padding: 50px 0 20px
+}
+.footer #back {
+    margin: 20px auto
+}
+.footer img.logo {
+    max-width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+.footer p {
+    font-size: 16px
+}
+.footer p.official {
+    margin-top: 15px;
+    padding-bottom: 150px;
+}
+.footer p a {
+    color: #333
+}
+.footer p a:hover {
+    text-decoration: none
+}
+.footer p span {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26.4px
+}
+.footer p span.get {
+    color: #c5c1b8;
+    font-weight: 900
+}
+.footer p span.brandsome {
+    color: #f15d4f;
+    font-weight: 900
+}
+.clock-container {
+    display: none;
+    width: 100%;
+    padding: 20px 0 0;
+    height: auto;
+    transition: .3s all;
+    position: relative
+}
+.clock-container .row {
+    padding: 0
+}
+.sub-clock {
+    max-width: 450px;
+    margin: 0 0 0 7%
+}
+.flip-clock-wrapper {
+    margin: 2.5em 0 1em;
+    width: auto;
+    transition: .3s all
+}
+.flip-clock-wrapper .flip {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2) !important
+}
+ul.flip {
+    position: relative;
+    float: left;
+    margin: 5px;
+    width: 60px;
+    height: 90px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 87px;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .5)
+}
+ul.flip li,
+ul.flip li a div,
+ul.flip li a div .shadow,
+ul.flip li a div div.inn,
+ul.flip li a div.up:after {
+    position: absolute;
+    width: 100%
+}
+ul.flip li {
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%
+}
+ul.flip li:first-child {
+    z-index: 2
+}
+.flip-clock-wrapper ul {
+    background: #fff
+}
+ul.flip li a {
+    display: block;
+    height: 100%;
+    perspective: 200px
+}
+ul.flip li a div {
+    z-index: 1;
+    left: 0;
+    height: 50%
+}
+ul.flip li a div .shadow {
+    height: 100%;
+    z-index: 2
+}
+ul.flip li a div.up {
+    transform-origin: 50% 100%;
+    top: 0
+}
+ul.flip li a div.up:after {
+    content: "";
+    top: 44px;
+    left: 0;
+    z-index: 5;
+    height: 3px;
+    background-color: rgba(255, 255, 255, .8)
+}
+ul.flip li a div.down {
+    transform-origin: 50% 0;
+    bottom: 0
+}
+ul.flip li a div div.inn {
+    left: 0;
+    z-index: 1;
+    height: 200%;
+    color: #f15d4f;
+    text-shadow: 0 1px 1px #f15d4f;
+    text-align: center;
+    background-color: #e7e4df;
+    border-radius: 6px
+}
+ul.flip li a div.up div.inn {
+    top: 0
+}
+ul.flip li a div.down div.inn {
+    bottom: 0
+}
+.flip-clock-divider .flip-clock-dot {
+    width: 5px;
+    height: 5px;
+    background: #e7e4df;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .3)
+}
+.flip-clock-divider .flip-clock-label {
+    font-size: 1.7rem;
+    font-family: Lato;
+    font-weight: 300;
+    color: #333
+}
+.time-jump-menu {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    z-index: 200;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Lato;
+    transition: .3s all
+}
+.time-jump-menu>strong {
+    position: absolute;
+    top: 10px;
+    left: 0
+}
+.time-jump-menu ul {
+    display: inline
+}
+.time-jump-menu ul li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px
+}
+.time-jump-menu .unfreeze-link {
+    display: none
+}
+.flip-clock-wrapper ul.play li.flip-clock-before .up .shadow {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, .1) 0, rgba(0, 0, 0, .5) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, .1)), color-stop(100%, rgba(0, 0, 0, .5)));
+    background: 0 0, top, 0, 100% rgba(0, 0, 0, .5);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, .1) 0, rgba(0, 0, 0, .5) 100%);
+    background: 0 0, bottom, 0, 100% rgba(0, 0, 0, .5);
+    animation: show .5s linear both
+}
+.flip-clock-wrapper ul.play li.flip-clock-active .up .shadow {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, .1) 0, rgba(0, 0, 0, .5) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, .1)), color-stop(100%, rgba(0, 0, 0, .5)));
+    background: 0 0, top, 0, 100% rgba(0, 0, 0, .5);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, .1) 0, rgba(0, 0, 0, .5) 100%);
+    background: 0 0, bottom, 0, 100% rgba(0, 0, 0, .5);
+    animation: hide .5s .3s linear both
+}
+.flip-clock-wrapper ul.play li.flip-clock-before .down .shadow {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, .5)), color-stop(100%, rgba(0, 0, 0, .1)));
+    background: 0 0, top, 0, 100% rgba(0, 0, 0, .1);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .1) 100%);
+    background: 0 0, bottom, 0, 100% rgba(0, 0, 0, .1);
+    animation: show .5s linear both
+}
+.flip-clock-wrapper ul.play li.flip-clock-active .down .shadow {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, .5)), color-stop(100%, rgba(0, 0, 0, .1)));
+    background: 0 0, top, 0, 100% rgba(0, 0, 0, .1);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .1) 100%);
+    background: 0 0, bottom, 0, 100% rgba(0, 0, 0, .1);
+    animation: hide .5s .2s linear both
+}
+body.play ul li.active .up .shadow,
+body.play ul li.before .up .shadow {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .1) 0, rgba(0, 0, 0, .3) 100%)
+}
+body.play ul li.before {
+    z-index: 3
+}
+body.play ul li.active {
+    animation: asd .5s .5s linear both;
+    z-index: 2
+}
+@keyframes "asd" {
+    0% {
+        z-index: 2;
+    }
+    100%,
+    5% {
+        z-index: 4;
+    }
+}
+body.play ul li.active .down {
+    z-index: 2;
+    animation: turn .5s .5s linear both
+}
+@keyframes "turn" {
+    0% {
+        transform: rotateX(90deg);
+    }
+    100% {
+        transform: rotateX(0);
+    }
+}
+body.play ul li.before .up {
+    z-index: 2;
+    animation: turn2 .5s linear both
+}
+@keyframes "turn2" {
+    0% {
+        transform: rotateX(0);
+    }
+    100% {
+        transform: rotateX(-90deg);
+    }
+}
+body.play ul li.before .up .shadow {
+    animation: show .5s linear both
+}
+body.play ul li.active .up .shadow {
+    animation: hide .5s .3s linear both
+}
+body.play ul li.active .down .shadow,
+body.play ul li.before .down .shadow {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .3) 0, rgba(0, 0, 0, .1) 100%)
+}
+body.play ul li.before .down .shadow {
+    animation: show .5s linear both
+}
+body.play ul li.active .down .shadow {
+    animation: hide .5s .3s linear both
+}
+@keyframes "show" {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes "hide" {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.block span.block-icon i,
+footer i {
+    color: #fff;
+    text-shadow: rgba(157, 157, 157, .3) 1px 1px, rgba(157, 157, 157, .3) 2px 2px, rgba(157, 157, 157, .3) 3px 3px, rgba(157, 157, 157, .3) 4px 4px, rgba(157, 157, 157, .3) 5px 5px
+}
+.arrows {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    background: url(../images/clock/internet_realtime_hands_black.png) center no-repeat
+}
+.analog-clock {
+    width: 17em;
+    height: 17em;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: url(../images/clock/cloud_clock_bg_2.png) center no-repeat
+}
+.analog-clock.simple:after {
+    background: #000;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 5%;
+    height: 5%;
+    z-index: 10
+}
+.hours-arrow,
+.minutes-arrow {
+    height: 20%;
+    transform-origin: 50% 100%;
+    background: #000;
+    position: absolute
+}
+.hours-container,
+.minutes-container,
+.seconds-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+.hours-arrow {
+    left: 48.75%;
+    top: 30%;
+    width: 2.5%
+}
+.minutes-arrow {
+    left: 49%;
+    top: 34%;
+    width: 1.5%
+}
+.seconds-arrow {
+    width: .1em;
+    height: 20%;
+    left: 50.5%;
+    position: absolute;
+    top: 52.5%;
+    transform-origin: 0 0;
+    animation: rotate 60s infinite steps(60);
+    background: url(../images/clock/internet_realtime_hand_moving_arrow.png) center no-repeat
+}
+@keyframes rotate {
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+.hours-container {
+    animation: rotate 43200s infinite linear
+}
+.minutes-container {
+    animation: rotate 3600s infinite steps(60)
+}
+.share-buttons {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    display: inline;
+    vertical-align: baseline
+}
+.share-buttons span {
+    width: 10px;
+    height: 10px;
+    padding: 8px;
+    background: center center
+}
+
+@media (min-width: 320px) and (max-width: 410px) {
+    .flip-clock-divider.minutes {
+        display: none
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .flip-clock-wrapper {
+        margin: 1em 0 3em;
+        width: 105%
+    }
+    span.flip-clock-label {
+        display: none
+    }
+}
+@media (min-width: 375px) and (max-width: 480px) {
+    .flip-clock-wrapper {
+        margin: 1em 2em 3em
+    }
+}
+@media (min-width: 411px) and (max-width: 620px) {
+    .flip-clock-wrapper {
+        margin: 1em 3em
+    }
+    .flip-clock-divider.minutes {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .header .social-icons li:last-child {
+        margin-right: 40px
+    }
+    .social-icons {
+        float: right
+    }
+    .clock-wr {
+        width: 88%;
+        margin: 0 4.5rem
+    }
+}
+@media (min-width: 992px) {
+    .clock-wr {
+        margin: 0 16.5rem
+    }
+    .col-md-5ths {
+        width: 20%;
+        float: left
+    }
+}
+@media (min-width: 1024px) {
+    .clock-wr {
+        margin: 0 17rem
+    }
+}
+
+@media (min-width: 1200px) {
+	.clock-container{
+		display: block;
+	}
+
+	.clock-wr {
+        margin: 0 330px
+    }
+    .col-md-5ths {
+        width: 20%;
+        float: left
+    }
+}
+@media (min-width: 1440px) {
+    .clock-wr {
+        margin: 0 25%
+    }
+}
+@media screen and (max-width: 780px) {
+    html .share {
+        display: none
+    }
+}
+@media screen and (max-width: 660px) {
+    .overscroll .flip-clock-divider.days,
+    html .flip-clock-label {
+        display: none
+    }
+    html .time-jump-menu {
+        width: 400px
+    }
+    html .header h1 {
+        font-size: 3.5rem
+    }
+}
+@media screen and (min-width: 320px) {
+	.overscroll ul.flip:after {
+        content: '\00000A'
+    }
+
+    .overscroll .sub-clock {
+        display: none
+    }
+    .overscroll .flip-clock-wrapper {
+        margin: 1em 0 0
+    }
+    .overscroll .flip-clock-dot.top {
+        top: 15px
+    }
+    .overscroll .flip-clock-dot.bottom {
+        top: auto;
+        bottom: 15px
+    }
+    .overscroll.clock-container ul {
+        height: 50px;
+        line-height: 50px
+    }
+
+    .overscroll.clock-container ul li {
+        line-height: 50px;
+        display: inline-block;
+        vertical-align: top
+    }
+    .overscroll .share {
+        display: block;
+        height: 55px;
+        margin-right: 0;
+        float: none;
+        text-align: center;
+        background: #fff
+    }
+    .overscroll .share span {
+        font-weight: 400
+    }
+    .overscroll .flip-clock-divider .flip-clock-label {
+        width: 142px;
+        right: auto !important;
+        text-align: center;
+        font-weight: 700
+
+    }
+    .overscroll .flip-clock-dot {
+        width: 5px;
+        height: 5px;
+        left: 8px
+    }
+    .overscroll .flip-clock-divider {
+        width: 20px;
+        height: 60px
+    }
+    .overscroll.clock-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 999999999;
+        background: rgba(247, 247, 247, .8);
+        margin: 0;
+        padding: 0;
+        padding-top: 15px;
+    }
+    .overscroll .time-jump-menu {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: none
+    }
+    .overscroll .time-jump-menu ul {
+        margin-top: -15px
+    }
+    .overscroll.clock-container ul li a div {
+        font-size: 32px !important
+    }
+
+}
+
+@media screen and (max-width: 660px){
+	.wrapper .row {
+	    margin: 0
+	}
+	.time-jump-menu {
+        padding: 0
+    }
+}

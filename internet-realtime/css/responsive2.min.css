@@ -1,0 +1,115 @@
+@media (min-width: 320px) and (max-width: 410px) {
+  .flip-clock-divider.minutes {
+    display: none; } }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .flip-clock-wrapper {
+    margin: 1em 0 3em;
+    width: 105%; }
+  span.flip-clock-label {
+    display: none; } }
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .flip-clock-wrapper {
+    margin: 1em 2em 3em; } }
+
+@media (min-width: 411px) and (max-width: 620px) {
+  .flip-clock-wrapper {
+    margin: 1em 3em; }
+  .flip-clock-divider.minutes {
+    visibility: hidden; }
+  .flip-clock-wrapper span.flip-clock-divider.days + ul.flip,
+  .flip-clock-wrapper span.flip-clock-divider.minutes + ul.flip {
+    margin-left: 35px; } }
+
+@media (min-width: 768px) {
+  .header .social-icons li:last-child {
+    margin-right: 40px; }
+  .social-icons {
+    float: right; }
+  .clock-wr {
+    width: 88%;
+    margin: 0 4.5rem; } }
+
+@media (min-width: 992px) {
+  .clock-wr {
+    margin: 0 16.5rem; }
+  .col-md-5ths {
+    width: 20%;
+    float: left; } }
+
+@media (min-width: 1024px) {
+  .clock-wr {
+    margin: 0 17rem; } }
+
+@media (min-width: 1200px) {
+  .clock-wr {
+    margin: 0 330px; }
+  .col-md-5ths {
+    width: 20%;
+    float: left; } }
+
+@media (min-width: 1440px) {
+  .clock-wr {
+    margin: 0 25%; } }
+
+@media screen and  (max-width: 660px){
+  .header h1{
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  /* Scroll flipclock */
+  .overscroll .flip-clock-wrapper {
+    margin: 1em 0 0 0; }
+  .overscroll .flip-clock-dot.top {
+    top: 15px; }
+  .overscroll .flip-clock-dot.bottom {
+    top: auto;
+    bottom: 15px; }
+  .overscroll.clock-container ul {
+    height: 50px;
+    line-height: 50px; }
+  .overscroll.clock-container ul li {
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: top; }
+  .overscroll .share {
+    display: block;
+    height: 55px;
+    float: none;
+    text-align: center;
+    background: #fff; }
+    .overscroll .share span {
+      font-weight: 400;
+      vertical-align: middle; }
+  .overscroll .flip-clock-divider .flip-clock-label {
+    width: 142px;
+    right: auto !important;
+    text-align: center;
+    font-weight: bold; }
+  .overscroll .flip-clock-dot {
+    width: 5px;
+    height: 5px;
+    left: 8px; }
+  .overscroll .flip-clock-divider {
+    width: 20px;
+    height: 60px; }
+  .overscroll.clock-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 200;
+    background: rgba(247, 247, 247, 0.8);
+    margin: 0; }
+  .overscroll .time-jump-menu {
+    bottom: 0;
+    left: 0;
+    width: 100%; }
+  .overscroll .time-jump-menu ul {
+    margin-top: -15px; }
+  .overscroll.clock-container ul li a div {
+    font-size: 32px !important; }
+  .wrapper .row {
+    margin: 0; } }

@@ -1,0 +1,580 @@
+@media only screen and (max-width : 767px) {
+    .header-section h1 {
+      font-size: 25px !important;
+      margin: 0 0 15px !important;
+      text-align: center;
+    }
+    /*
+    .conclusion-company .conclusion-com-rating-area {
+      padding: 0  !important;
+    }*/
+    .main-navbar .navbar-collapse, .main-navbar .navbar-form {
+      border-color: #4c4c4c !important;
+    }
+    .banner-text-area .banner-text-box {
+      margin: 20px auto !important;
+      padding: 20px 15px 10px !important;
+    }
+    .conclusion-company .conclusion-com-visit a {
+      font-size: 15px !important;
+      padding: 10px 35px !important;
+    }
+    .banner-text-area .banner-text-box .banner-heading {
+      font-size: 20px !important;
+      margin-bottom: 10px !important;
+    }
+    .top-website-builders .owl-next {
+      right: 0 !important;
+      top: -10% !important;
+    }
+    .top-website-builders .owl-prev {
+      left: 0 !important;
+      top: -10% !important;
+    }
+    .top-website-builders .owl-next i {
+      font-size: 40px !important;
+    }
+    .top-website-builders .owl-prev i {
+      font-size: 40px !important;
+    }
+    .tab-area .tabs-content-area {
+      margin-top: 20px !important;
+    }
+    .tabs-content-area .panel-heading .panel-title a{
+        text-decoration: none !important;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .tabs-content-area .panel-heading .panel-title a:hover{
+        color: #ee651f;
+    }
+    .banner-text-area {
+      padding-bottom: 0 !important;
+    }
+    .tab-area {
+      padding-bottom: 0 !important;
+    }
+    .main-navbar .navbar-header{
+        text-align: center;
+    }
+    .main-navbar .navbar-toggle {
+      float: none !important;
+      margin-right: 0 !important;
+    }
+    .top-website-builders {
+      padding: 20px 0 !important;
+    }
+    .top-website-builders .top-title {
+      font-size: 18px !important;
+    }
+    .top-website-builders .border-bottom {
+      margin: 15px auto 25px !important;
+    }
+    .top-website-builders .single-slider .info-box .com-rating {
+      text-align: center !important;
+    }
+    .top-com-text-info {
+      text-align: center !important;
+    }
+    .top-website-builders .single-slider .info-box .top-com-text-info .title {
+      font-size: 16px !important;
+      margin-bottom: 5px !important;
+      margin-top: 10px !important;
+    }
+    .top-website-builders .single-slider .info-box .top-com-text-info .top-com-visit a {
+      font-size: 14px !important;
+      margin: 0 !important;
+      padding: 8px 15px !important;
+    }
+    .footer-area .top-footer {
+      padding: 25px 0 5px !important;
+    }
+    .bottom-footer hr {
+      margin: 20px 0 10px !important;
+    }
+    .bottom-footer {
+      padding-bottom: 15px !important;
+    }
+    .footer-area .footer-social-links {
+      padding: 10px 0 !important;
+    }
+    .top-website-builders .single-slider .info-box .top-com-text-info .top-com-visit {
+      text-align: center !important;
+    }
+    .company-description .description-list ul li {
+      margin-bottom: 10px !important;
+    }
+    .company-description .description-list ul li img {
+      margin-right: 5px !important;
+    }
+    .single-purpose-wb .company-heading {
+      font-size: 16px !important;
+      padding: 10px 15px !important;
+    }
+    .company-description .rating-area {
+      padding: 0 15px 15px !important;
+      border-left: 1px solid transparent !important;
+    }
+    .single-purpose-wb .eaperts-review-area .profile-pic p {
+      margin: 0 0 10px !important;
+    }
+    .at-vero-area ul {
+      margin: 10px 0 !important;
+      padding-left: 0 !important;
+    }
+    .at-vero-area ul li {
+      margin-bottom: 10px !important;
+    }
+    .at-vero-area ul li img {
+      margin-right: 5px !important;
+    }
+    .at-vero-area .title {
+      font-size: 13px !important;
+      margin-bottom: 5px !important;
+    }
+    .at-vero-area {
+      padding: 15px 15px 0 !important;
+    }
+    .placeat-ducimus-qui {
+      padding: 5px 15px !important;
+    }
+    .placeat-ducimus-qui .title {
+      margin-bottom: 15px !important;
+    }
+    .placeat-ducimus-qui .finibus-title {
+      margin-bottom: 10px !important;
+      margin-top: 15px !important;
+    }
+    .single-top-company .info-box .com-rating {
+      text-align: center !important;
+    }
+    .single-top-company .info-box .top-com-text-info .title {
+      font-size: 18px !important;
+      margin-top: 10px !important;
+    }
+    .single-top-company .info-box .top-com-text-info .top-com-visit a {
+      font-size: 14px !important;
+      margin: 0 !important;
+      padding: 8px 16px !important;
+    }
+    .pagination-box .pagination {
+      margin: 0 0 20px !important;
+    }
+    .right-sidebar {
+      margin-top: 15px !important;
+    }
+    .page-header-area .header-box {
+      padding: 15px !important;
+    }
+    .page-header-area .header-box img {
+      margin-right: 15px !important;
+    }
+    .page-header-area {
+      padding: 20px 0 !important;
+    }
+    .quiz-area .quiz-box .box-title {
+      font-size: 15px !important;
+    }
+    .quiz-area .quiz-box {
+      margin-top: 20px !important;
+    }
+    .quiz-area {
+      padding-bottom: 20px !important;
+    }
+    .quiz-area .quiz-box .quiz-question .question-text {
+      padding: 0 0 5px !important;
+    }
+    .quiz-area .quiz-box .quiz-question .question-text p {
+      font-size: 15px !important;
+    }
+    .quiz-area .quiz-box .quiz-question ul li a .cate {
+        font-size: 20px !important;
+        margin-right: 10px !important;
+    }
+    .quiz-area .quiz-box .quiz-question {
+        margin-bottom: 0 !important;
+        padding-bottom: 10px !important;
+    }
+    .quiz-area .quiz-box .question-progress .progress {
+      margin-bottom: 5px !important;
+    }
+    .blog-area .single-blog-card .blog-title h2 {
+      font-size: 15px !important;
+    }
+    .blog-area .single-blog-area {
+      margin-top: 20px !important;
+    }
+    .blog-area .single-blog-card .text-box img {
+      margin-bottom: 15px !important;
+    }
+    .blog-area .pagination-box .pagination {
+      margin: 10px 0 2px !important;
+    }
+    .blog-area {
+      padding-bottom: 0px !important;
+    }
+    .blog-area .single-blog-card .read-full-story {
+      padding: 0 15px 10px !important;
+    }
+    .blog-area .single-blog-card .read-full-story .full-story-list {
+      margin: 10px 0 !important;
+      padding: 0 !important;
+    }
+    .blog-area .single-blog-card .read-full-story .full-story-list li {
+      margin-bottom: 10px !important;
+    }
+    .blog-area .single-blog-card .read-full-story .post-img {
+      margin-bottom: 10px !important;
+    }
+    .blog-area .single-blog-card .post-john-doe {
+      padding: 15px !important;
+    }
+    .single-blog-area .comments-box {
+      margin-top: 0 !important;
+    }
+    .single-blog-area .comments-box .comments-form-box {
+      padding: 15px !important;
+    }
+    .single-blog-area .comments-box .comments-title {
+      padding: 15px 15px 0 !important;
+    }
+    .single-blog-area .comments-box .comments-form-box .media .media-body form .btn-comment .btn-default {
+      padding: 8px 20px !important;
+    }
+    .comments-box .single-comments .media {
+      padding: 15px !important;
+    }
+    .review-header-area .header-box .company-wsb-review {
+      padding: 0 !important;
+    }
+    .page-header-area .header-box .quiz-heading {
+      font-size: 15px !important;
+    }
+    .review-header-area .header-box .company-wsb-review img {
+      margin-top: 0 !important;
+    }
+    .review-header-area .header-box .author-title {
+      margin-bottom: 10px !important;
+    }
+    .try-weebly-for-free a i {
+      font-size: 18px !important;
+      margin: 0 15px 0 0 !important;
+    }
+    .try-weebly-for-free a {
+      font-size: 15px !important;
+      padding: 8px 15px !important;
+    }
+    .features-tab .features-text-box .at-vero-area {
+      padding: 0 !important;
+    }
+    .price-table .price-table-area .list-item .pat-vero-area{
+        padding: 0 15px;
+    }
+    .when-to-choose .when-to-choose-text h3 {
+      margin-bottom: 10px !important;
+      margin-top: 5px !important;
+    }
+    .when-to-choose .when-to-choose-text p {
+      margin: 0 0 15px !important;
+    }
+    .when-to-choose .not-for-you {
+      padding: 15px !important;
+    }
+    .wsb-review-area .wsb-review-box .wsb-company-review .highlights-text ul li {
+      margin-bottom: 10px !important;
+    }
+    .wsb-review-area {
+      padding-bottom: 10px !important;
+    }
+}
+
+
+@media only screen and (max-width : 439px) {
+    .blog-area .single-blog-card .post-john-doe img {
+      margin: auto !important;
+    }
+    .blog-area .single-blog-card .post-john-doe .media .media-left {
+      display: inline !important;
+      text-align: center !important;
+      padding: 0 !important;
+    }
+    .single-blog-area .comments-box .comments-form-box .media .media-left img {
+      margin: 0 auto 15px !important;
+    }
+    .single-blog-area .comments-box .comments-form-box .media .media-left {
+      display: inline !important;
+      text-align: center !important;
+      padding: 0 !important;
+    }
+    .single-blog-area .comments-box .comments-form-box .media .media-body form .btn-comment {
+      text-align: center !important;
+    }
+    .single-blog-area .comments-box .comments-title {
+      text-align: center;
+    }
+    .comments-box .single-comments .media .media-left img {
+      margin: 0 auto 15px !important;
+    }
+    .comments-box .single-comments .media .media-left {
+      display: inline !important;
+      text-align: center !important;
+      padding: 0 !important;
+    }
+    .comments-box .single-comments .media .media-body p {
+      text-align: justify;
+    }
+    .blog-area .single-blog-card .post-john-doe .media .media-body p {
+      text-align: justify;
+    }
+    .comments-box .single-comments .reply-comments {
+      padding-left: 15px !important;
+    }
+    .try-weebly-for-free {
+      text-align: center !important;
+    }
+}
+
+
+@media only screen and (min-width : 440px) and (max-width : 767px) {
+    .blog-area .single-blog-card .post-john-doe .media .media-left {
+      padding-right: 15px !important;
+    }
+    .single-blog-area .comments-box .comments-form-box .media .media-left {
+      padding-right: 15px !important;
+    }
+    .comments-box .single-comments .media .media-left {
+      padding-right: 15px !important;
+    }
+    .comments-box .single-comments .reply-comments {
+      padding-left: 60px !important;
+    }
+}
+
+@media only screen and (max-width : 991px) {
+    .company-description .company-logo {
+      padding: 15px 15px 0 !important;
+      text-align: center;
+    }
+    .wsb-review-area .wsb-review-box .wsb-company-review .com_rating {
+      text-align: center !important;
+    }
+    .wsb-review-area .wsb-review-box .wsb-company-review .com_rating .rating-area {
+      margin-top: 15px !important;
+    }
+    .wsb-review-area .wsb-review-box .wsb-company-review .highlights-text {
+      margin-top: 0 !important;
+    }
+    .wsb-review-area .wsb-review-box .wsb-company-review .visit_ws {
+      border-top: 1px solid #ebebeb;
+      padding: 15px;
+      text-align: center !important;
+    }
+    .features-tab {
+      background-color: transparent !important;
+    }
+    .company-description .description-list {
+      padding: 15px !important;
+    }
+    .single-purpose-wb .eaperts-review-area .pa-left {
+      padding-left: 15px !important;
+    }
+    .company-description .company-logo .visit-ws {
+      font-size: 13px !important;
+      padding: 8px 0 !important;
+    }
+    .company-description .company-logo img {
+      max-width: 100% !important;
+    }
+    .single-purpose-wb .eaperts-review-area .review-box .review-footer ul li {
+      margin-bottom: 15px !important;
+    }
+    .single-purpose-wb .eaperts-review-area .review-box .review-footer {
+      padding: 15px 15px 0 !important;
+    }
+    .single-purpose-wb .eaperts-review-area .review-title {
+        text-align: center;
+    }
+    .tab-area .tabs-content-area .panel-default > .panel-heading {
+      background-color: #fff !important;
+      border-radius: 0 !important;
+    }
+    .wsb-review-area .wsb-review-box .wsb-company-review .com_rating img{
+        max-width: 100% !important;
+    }
+    .wsb-review-area .wsb-review-box .wsb-company-review .highlights-text {
+      padding: 0 15px !important;
+    }
+    .wsb-review-area .wsb-review-box .wsb-company-review .about-company {
+      margin: 15px !important;
+    }
+    .features-tab .panel-group .panel {
+      border-radius: 0 !important;
+    }
+    .features-tab .panel-default > .panel-heading {
+      background-color: #ffff !important;
+    }
+    .wsb-review-area .wsb-review-box .wsb-company-review {
+      margin-bottom: 20px !important;
+    }
+    .price-table .vip .list-item .at-vero-area {
+      border-right: 1px solid #e0e0e0;
+    }
+    .wsb-review-area .wsb-review-box .wsb-company-review .com_rating img {
+      margin-top: 5px !important;
+    }
+    /*
+    .conclusion-company .conclusion-com-visit {
+      padding: 0 15px !important;
+    }*/
+    .conclusion-company {
+      margin: 0 !important;
+    }
+    .conclusion-company .conclusion-com-rating-area ul {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+}
+
+
+@media only screen and (min-width : 992px) {
+    .company-description .company-logo img{
+        width: 100% !important;
+    }
+    .wsb-review-area .wsb-review-box .wsb-company-review .com_rating img {
+      width: 100% !important;
+    }
+}
+
+
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+    .slider-active {
+        padding: 0 40px;
+    }
+    .top-website-builders .owl-next {
+      right: 0 !important;
+    }
+    .top-website-builders .owl-prev {
+      left: 0 !important;
+    }
+    .company-description .rating-area {
+      padding: 0 15px 15px !important;
+    }
+    .tab-area .tabs-content-area {
+      margin-top: 30px !important;
+    }
+    .tabs-content-area .panel-heading .panel-title a {
+      font-size: 14px;
+      font-weight: bold;
+      text-decoration: none !important;
+    }
+    .tabs-content-area .panel-heading .panel-title a:hover {
+      color: #ee651f;
+    }
+    .banner-text-area {
+      padding-bottom: 0 !important;
+    }
+    .banner-text-area .banner-text-box {
+      margin: 30px auto !important;
+    }
+    .blog-area .single-blog-card .text-box img {
+      float: none !important;
+      margin-bottom: 15px !important;
+    }
+    .blog-area .single-blog-card .post-john-doe {
+      padding: 15px !important;
+    }
+    .single-blog-area .comments-box .comments-title {
+      padding: 15px 15px 0 !important;
+    }
+    .single-blog-area .comments-box .comments-form-box {
+      padding: 15px !important;
+    }
+    .comments-box .single-comments .media {
+      padding: 15px !important;
+    }
+    .single-blog-area .comments-box .comments-form-box .media .media-left {
+      padding-right: 20px !important;
+    }
+    .comments-box .single-comments .media .media-left {
+      padding-right: 20px !important;
+    }
+    .blog-area .single-blog-card .post-john-doe .media .media-left {
+      padding-right: 20px !important;
+    }
+    .when-to-choose .when-to-choose-text p {
+      margin: 0 0 20px !important;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .banner-text-area .banner-text-box {
+      padding: 35px 15px 25px !important;
+    }
+    .banner-text-area .banner-text-box .banner-heading {
+      font-size: 25px !important;
+    }
+    .single-purpose-wb .company-heading {
+      font-size: 15px !important;
+    }
+    .tab-area {
+      padding-bottom: 20px !important;
+    }
+    .top-website-builders .top-title {
+      font-size: 22px !important;
+    }
+    .top-website-builders {
+      padding: 40px 0 !important;
+    }
+    .quiz-area .quiz-box .box-title {
+      font-size: 18px !important;
+    }
+    .quiz-area .quiz-box .quiz-question .question-text {
+      padding: 10px 0 15px !important;
+    }
+    .quiz-area {
+      padding-bottom: 10px !important;
+    }
+    .blog-area .single-blog-card .blog-title h2 {
+      font-size: 17px !important;
+    }
+    .blog-area {
+      padding-bottom: 0 !important;
+    }
+    .blog-area .pagination-box .pagination {
+      margin: 15px 0 25px !important;
+    }
+    .blog-area .single-blog-card .read-full-story {
+      padding: 0 15px 15px !important;
+    }
+    .single-blog-area .comments-box {
+      margin-bottom: 30px !important;
+    }
+    .review-header-area .header-box .company-wsb-review img {
+      margin-right: 20px !important;
+    }
+    .page-header-area .header-box .quiz-heading {
+      font-size: 20px !important;
+    }
+    .try-weebly-for-free a i {
+      font-size: 20px !important;
+      margin: 0 15px 0 0 !important;
+    }
+    .try-weebly-for-free a {
+      font-size: 17px !important;
+      padding: 10px 15px !important;
+      margin-top: 10px !important;
+    }
+}
+
+
+@media only screen and (min-width : 992px) and (max-width : 1024px) {
+    .blog-area .single-blog-card .text-box img {
+      margin-bottom: 10px !important;
+    }
+}
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+    .conclusion-company .conclusion-com-visit a {
+      padding: 15px 35px !important;
+    }
+}
