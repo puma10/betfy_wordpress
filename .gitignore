@@ -2,6 +2,7 @@
 /nbproject/*
 error.log
 
+/wp-config.php
 
 # Windows thumbnail cache files
 Thumbs.db
