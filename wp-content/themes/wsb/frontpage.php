@@ -1,9 +1,6 @@
 <?php get_header();
 /*
-Template Name: Home Page
-
-
-
+    Template Name: Home Page
 */
 ?>
         <!--=== Banner Text Area ===-->
@@ -4407,8 +4404,32 @@ Template Name: Home Page
                     </div>
                 </div>
             </div>
+            
+            
+            
+        <!-- show empty page content to show page's rich snippet -->
+        <div class="richSnippetWrapper">
+             <div class="wrap">
+        <?php
+//        while ( have_posts() ) {
+//              the_post();
+//            the_content();
+//        }
+    
+            global $post;
+            $content = apply_filters('the_content', $post->post_content); 
+            echo $content;
+        ?>
+            </div>
+        </div>
+            
+            
+            
         </section>
         <!--=== /.Top Betting Sites ===-->
+        
+        
+
 
 
 <?php get_footer(); ?>

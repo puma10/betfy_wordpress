@@ -1635,3 +1635,13 @@ a {
 .features-tab .panel-heading .panel-title a {
     text-decoration: none;
 }
+
+/*  rich snippet styles  */
+.richSnippetWrapper {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.richSnippetWrapper > div {
+    display: inline-block;
+}
