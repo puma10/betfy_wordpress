@@ -21,7 +21,6 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'bettings_sites');
-//define('DB_NAME', 'bettings_best-betting-sites');
 
 /** MySQL database username */
 define('DB_USER', 'bettings_user');
